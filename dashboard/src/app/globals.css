@@ -5,12 +5,18 @@
   --footer-background: #F7FAFC;
   --promo-background: #E6F6FE;
   --font-grey: #718094;
+  --promo-text: #1A202C;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #03A9F4;
+    --footer-background: #1f1f1f;
+    --promo-background: #1a1a1a;
+    --font-grey: #718094;
+    --promo-text: #e0e0e0e
   }
 }
 

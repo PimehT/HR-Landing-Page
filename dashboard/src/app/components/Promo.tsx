@@ -26,7 +26,7 @@ const styles = {
     padding: '50px 20px',
     background: 'linear-gradient(135deg, var(--promo-background) 0%, var(--footer-background) 100%)',
     textAlign: 'center',
-    color: '#1A202C'
+    color: 'var(--promo-text)',
   },
   heading: {
     marginBottom: '20px',

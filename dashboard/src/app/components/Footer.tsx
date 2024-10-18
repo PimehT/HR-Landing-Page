@@ -99,6 +99,10 @@ const styles = {
   },
   icon: {
     margin: '0 5px',
+    color: 'var(--promo-text)',
+    '&:hover': {
+      color: 'var(--primary)',
+    },
   },
 };
 

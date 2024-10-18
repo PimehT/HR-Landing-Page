@@ -88,13 +88,13 @@ const NavBar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" style={{
-        backgroundColor: '#fff',
+        backgroundColor: 'var(--background)',
         display: 'flext',
         alignItems: 'center',
         boxShadow: 'none',
       }}>
         <Toolbar sx={{
-            color: 'black',
+            color: 'var(--foreground)',
             background: 'var(--background)',
             width: '100%',
             maxWidth: '750px',
